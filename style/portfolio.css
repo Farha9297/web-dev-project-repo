@@ -76,12 +76,27 @@ background-color: white;}
 margin-top: 30px;}
 .experience-subtitle,.description{ color:#757575;}
 #foot{display: flex;
-    gap: 10px;
+    gap: 100px;
 background-color: beige;
 padding: 30px;}
 .foot-column{display: flex;
-    gap: 20px;
-flex-direction: column;}
-.message{ width: 200px;
-height: 80px;
-padding: 0px 150px 60px 20px;}
+flex-direction: column;
+gap: 20px;}
+.foot-column input[type="textarea"]{ height: 64px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    display:block;
+border: none;} 
+    input[type="text"]{ height: 64px;
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        display:block;
+    border: none;} 
+        input[type="email"] { height: 64px;
+width: 100%;
+background-color: white;
+border-radius: 5px;
+display:block;
+border: none;}
