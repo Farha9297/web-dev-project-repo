@@ -1,0 +1,87 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary { color: #FD6E0A;}
+.buton-primary { 
+    background-color:#FD6E0A ;
+font-weight: bold;
+color: white;
+padding: 18px 34px;
+border: none;
+border-radius: 5%;}
+
+/* Nav styles*/
+nav { display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 50px 200px;}
+
+.nav-title{ font-weight: 800;
+font-size: 45px;}
+nav ul { display: flex;
+align-items: center;}
+nav ul li {
+    list-style: none;
+margin-right: 50px;}
+    nav li a  { 
+        text-decoration: none;
+    font-size: 20px;}
+    .anchor {color: #474747;}
+    /* header style */
+    .header{ background-image: 
+        url('../images/developer.png'), url('../images/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+    /* div styles */
+    .div-parent { display: flex;
+    justify-content: space-between;
+padding: 0 35px 0 200px;}
+    .div-content { max-width: 580px;}
+    
+    .div-greetings { color: #474747;
+        font-size: 45px;
+    font-weight: 600;}
+
+   .div-Name { color:#181818;
+font-size: 85px;
+font-weight: bold;}
+.div-image { max-width: 580px;}
+/*card style*/
+#card{ margin: 50px 50px;}
+.card-container { display: flex;
+gap: 20px;
+background-color: beige;
+box-shadow: 0px 10px 50px 0px rgba(20, 10, 10, 0.288);}
+.one, .two, .three, .four { background-color: white;
+    border-radius: 10px;
+padding: 20px;}
+.card-para{ color:#757575;}
+.title{color: #181818;}
+.description{ color: #757575;}
+/*Resume style*/
+#resume{ margin: 50px 50px;
+background-color: beige;}
+.resume-container{ display: flex;
+gap: 20px;
+background-color: white;}
+.text-align{ text-align: center;
+margin-top: 30px;}
+.experience-subtitle,.description{ color:#757575;}
+#foot{display: flex;
+    gap: 10px;
+background-color: beige;
+padding: 30px;}
+.foot-column{display: flex;
+    gap: 20px;
+flex-direction: column;}
+.message{ width: 200px;
+height: 80px;
+padding: 0px 150px 60px 20px;}
